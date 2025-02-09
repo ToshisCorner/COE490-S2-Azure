@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Benedict Alianza - Resume</title>
+    <link rel="stylesheet" href="john-resume-styles.css">
+</head>
+<body>
+    <header>
+        <h1>JOHN BENEDICT ALIANZA</h1>
+        <p>Dubai, UAE | 056 827 1498 | LinkedIn | J.Benedict.Alianza@gmail.com</p>
+    </header>
+
+    <section>
+        <h2>EDUCATION</h2>
+        <p><strong>American University of Sharjah (AUS)</strong></p>
+        <p>2025</p>
+        <p>Bachelor of Science in Computer Engineering</p>
+        <p>Cumulative GPA: 3.50</p>
+    </section>
+
+    <section>
+        <h2>EXPERIENCE</h2>
+        <p><strong>3W Networks | Engineering Team Internship</strong></p>
+        <p>July 15, 2024 - August 15, 2024</p>
+        <ul>
+            <li>Worked with floor employees to cross-check physical wiring with GA wiring diagrams.</li>
+            <li>Consolidated equipment master sheets for the Bill of Materials.</li>
+            <li>Contributed to redline revisions for project block diagrams by consulting master sheet.</li>
+            <li>Contributed to ATP-5 procedure by cross-checking cabinet wiring with GA diagrams.</li>
+        </ul>
+
+        <p><strong>Petrofac | ERP HCM & Supply Chain IT Internship</strong></p>
+        <p>Dec. 11, 2023 - Jan. 11, 2024</p>
+        <ul>
+            <li>Immersed in the study of ERP processes and Oracle Fusion Cloud.</li>
+            <li>Coordinated with international employees on documents for SCM, PPM, etc.</li>
+            <li>Tasked with cleaning, analyzing, and structuring multiple IT support ticket databases.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>EXTRACURRICULARS & PROJECTS</h2>
+        <p><strong>Java-Based Text Adventure Game Course Project</strong></p>
+        <p>Fall 2024</p>
+        <ul>
+            <li>Implemented a text-based Java adventure game that touched on several software design patterns.</li>
+        </ul>
+
+        <p><strong>CiPL for Telecom Equipment</strong></p>
+        <p>August 8, 2024 - August 13, 2024</p>
+        <ul>
+            <li>Scanned equipment sheets & physical tags in order to compile commercial invoices & packing lists for telecom cabinet equipment across multiple projects.</li>
+        </ul>
+
+        <p><strong>Excel IT Support Ticket Analysis Dashboard</strong></p>
+        <p>Dec. 11, 2023 - Jan. 11, 2024</p>
+        <ul>
+            <li>Utilized PowerPoint and Lookup formulas to create a ticket analysis system, providing categorical insights on ticket volume and resolution time.</li>
+        </ul>
+
+        <p><strong>Engineering Multi-Disciplinary Project (EMDP) Course Project</strong></p>
+        <p>Fall 2023</p>
+        <ul>
+            <li>Worked with 4 team members to devise a product plan for a hydroponics air purification system.</li>
+        </ul>
+
+        <p><strong>Alpha Lambda Delta Honor Society Member</strong></p>
+        <p>January 27, 2022 - Present</p>
+        <ul>
+            <li>Demonstrated outstanding academic performance in my first year of university.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>SKILLS & INTERESTS</h2>
+        <p><strong>Soft Skills</strong>: Time Management, Adaptability</p>
+        <p><strong>Programming Languages</strong>: C++, Java, HTML</p>
+        <p><strong>Applications</strong>: DaVinci Resolve, DarkTable, Photoshop</p>
+        <p><strong>Honors & Awards</strong>: AUS Dean’s List (3 semesters)</p>
+        <p><strong>Interests</strong>: Photography, Filmmaking, Color Grading</p>
+    </section>
+</body>
+</html>
