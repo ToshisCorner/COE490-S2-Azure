@@ -202,12 +202,12 @@ span
     -----------------------------------------------------------------------------------------------------------------------------------------
 */
 
-.hobbies
+.assignments
 {
 
 }
 
-.hobbies-container
+.assignments-container
 {
     display: flex;
     justify-content: center;
@@ -216,7 +216,7 @@ span
     align-items: stretch;
 }
 
-.hobbies h3
+.assignments h3
 {
     margin-right: 2rem;
     color: aliceblue;
@@ -229,7 +229,7 @@ span
     border-radius: 15px;
 }
 
-.videography, .studying
+.personal-websites, .resume-assignment-archive
 {
     padding: 4rem;
     background-color: aliceblue;
@@ -237,34 +237,26 @@ span
     flex: 1;
 }
 
-.videography a
+.personal-websites a
 {
     color: #5e8d97;
     margin: -2rem;
 }
 
-.videography a:hover
+.personal-websites a:hover
 {
     color: #f09990;
     transform: scale(1.1), transitionY(-10px);
     transition: 0.3s ease;
 }
 
-.videography iframe
-{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2rem;
-}
-
-.hobbies h4
+.assignments h4
 {
     font-size: 2rem;
     color: #5e8d97;
 }
 
-.hobbies p
+.assignments p
 {
     color: #5e8d97;
     font-size: 1.5rem;
@@ -273,7 +265,7 @@ span
     margin-top: 2rem;
 }
 
-.hobbies img
+.assignments img
 {
     display: block;
     margin-left: auto;
@@ -289,12 +281,12 @@ span
     -----------------------------------------------------------------------------------------------------------------------------------------
 */
 
-.education
+.resumes
 {
 
 }
 
-.education-container
+.resumes-container
 {
     display: flex;
     justify-content: flex-start;
@@ -308,7 +300,7 @@ span
     border-radius: 15px;
 }
 
-.education-container img
+.resumes-container img
 {
     position: relative;
     width: 15vw;
@@ -320,7 +312,7 @@ span
     transition: 0.2s linear;
 }
 
-.education h3
+.resumes h3
 {
     margin-left: 2rem;
     color: aliceblue;
@@ -334,14 +326,14 @@ span
     border-radius: 15px;
 }
 
-.education h4
+.resumes h4
 {
     color: aliceblue;
     font-size: 2rem;
     padding: 1rem;
 }
 
-.education p
+.resumes p
 {
     font-size: 1.5rem;
     line-height: 2.5rem;
