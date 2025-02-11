@@ -1,14 +1,137 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Welcome to Scksf.cc</title>
-</head>
-<body>
-<h1>The Art Repository for all things Scksf</h1>
-<p>This web archive contains the resume of John Benedict Alianza and Ammar Aal-Wahab</p>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="index-styles.css">
 
-Additional application functionality includes:<br />
-<a href="fetching-from-server.html" target="_blank">Accessing Node.js Server-Side Application Programming Interfaces (APIs)</a><br />
-<a href="john-benedict-resume.html" target="_blank">John Benedict Alianza's Resume (updated)</a>
+    <title>Welcome to Scksf</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#resumes">Resumes</a>
+            <a href="#assignments">Assignments</a>
+            <a href="#contact-links">Contact</a>
+        </nav>
+
+        <a href="#" class="logo">SCKSF.cc</a>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-image">
+            <img src="https://github.com/ToshisCorner/Introduction-Website-for-COE490/blob/main/me-800-by-800.gif?raw=true" alt="Profile Picture" onclick="open_thumbnail()">
+            
+            <script>
+                function open_thumbnail()
+                {
+                    var thumbnail_url = "https://github.com/ToshisCorner/Introduction-Website-for-COE490/blob/main/me-300-by-300.gif?raw=true";
+                    window.open(thumbnail_url, '_blank');
+                }
+            </script>
+        </div>
+        
+        <div class="home-content" id="home-content">
+            <h1>
+                SCKSF consists of <span>three creatives studying in non-creative fields.</span>
+            </h1>
+            <h3>
+                John Benedict Alianza     |     Ammar Aal-Wahab
+            </h3>
+            <p>
+                SCKSF is a repository for all things creative we've done and will be doing in the future.
+            </p>
+            <div class="home-description-container">
+                <h4>
+                    Fun Fact About Me:
+                </h4>
+                <p>
+                    Although I go by John, my actual name is John Benedict. John comes from the name of St. John Paul II, and Benedict is the name of the next pope that came to be in 2005,
+                    3 years after my birthday. Either my parents predicted that or they're time travelers.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="resumes" id="resumes">
+        <h3>
+            Resumes
+        </h3>
+        <div class="resumes-container">
+            <div>
+                <img src="https://raw.githubusercontent.com/ToshisCorner/COE490-S2-Azure/refs/heads/main/assets/john_benedict_resume_pic.png" alt="John Benedict Alianza Resume" onclick="open_john_resume()">
+                <script>
+                    function open_john_resume()
+                    {
+                        var thumbnail_url = "john-benedict-resume.html";
+                        window.open(thumbnail_url, '_blank');
+                    }
+                </script>
+            </div>
+            <div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="assignments" id="assignments">
+        <h3>
+            Assignments
+        </h3>
+        <div class="assignments-container">
+            <div class="personal-websites">
+                <h4>
+                    Sprint 1: Personal Websites
+                </h4>
+                <p>
+                    For Sprint 1, we each designed a personal website that gave a glimpse into who we are as students and people.
+                </p>
+                <img src="https://raw.githubusercontent.com/ToshisCorner/COE490-S2-Azure/refs/heads/main/assets/john_intro_website_pic.png" alt="John Benedict Alianza Intro Website" onclick="open_john_introSite()">
+                <script>
+                    function open_john_introSite()
+                    {
+                        var thumbnail_url = "https://toshiscorner.github.io/Introduction-Website-for-COE490/#";
+                        window.open(thumbnail_url, '_blank');
+                    }
+                </script>
+            </div>
+            <div class="resume-assignment-archive">
+                <h4>
+                    Sprint 2: Online Resume & Assignments Archive
+                </h4>
+                <p>
+                    Before you tell me of, "Studying isn't a hobby, you know.", "What's so fun about it?", "Are you really that boring?"
+                </p>
+                <img src="https://raw.githubusercontent.com/ToshisCorner/COE490-S2-Azure/refs/heads/main/assets/john_intro_website_pic.png" alt="SCKSF Homepage" onclick="open_scksf_website()">
+                <script>
+                    function open_scksf_website()
+                    {
+                        var thumbnail_url = "https://toshiscorner.github.io/Introduction-Website-for-COE490/#";
+                        window.open(thumbnail_url, '_blank');
+                    }
+                </script>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-links" id="contact-links">
+        <div class="contact-container">
+            <h1>
+                If you wanna contact us, feel free to at these links!
+            </h1>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/john-benedict-alianza/" class="fa-brands fa-linkedin" target="_blank"></a>
+                <a href="https://github.com/ToshisCorner" class="fa-brands fa-github" target="_blank"></a>
+                <a href="https://discordapp.com/users/1230421696436113459" class="fa-brands fa-discord" target="_blank"></a>
+                <a href="https://www.instagram.com/j_benedict_alianza/" class="fa-brands fa-instagram" target="_blank"></a>
+            </div>
+            <p>
+                ✉️ AUS Email: <a href=mailto:b00094038@aus.edu class="student-email" target="_blank">b00094038@aus.edu</a>
+            </p>
+        </div>
+    </section>
 </body>
 </html>
