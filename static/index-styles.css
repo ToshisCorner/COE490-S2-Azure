@@ -29,7 +29,7 @@ body
     height: 100vh;
     overflow-x: hidden;
     
-    background-image: url('https://github.com/ToshisCorner/Introduction-Website-for-COE490/blob/main/kenrick-mills-MF9Wy1NA55I-unsplash.jpg?raw=true');
+    background-image: url('https://raw.githubusercontent.com/ToshisCorner/COE490-S2-Azure/refs/heads/main/assets/skcsf-bg-pic.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -56,7 +56,7 @@ header
 .logo
 {
     font-size: 3rem;
-    color: #f09990;
+    color: #B5828C;
     font-weight: 800;
     cursor: pointer;
     transition: 0.5s ease;
@@ -79,8 +79,8 @@ nav a
 
 nav a:hover, nav a:active
 {
-    color:#f09990;
-    border-bottom: #f09990 solid;
+    color:#B5828C;
+    border-bottom: #B5828C solid;
 }
 
 @media(max-width: 995px)
@@ -92,12 +92,12 @@ nav a:hover, nav a:active
         right: 0;
         width: 40%;
         
-        border-left: 3px solid #f09990;
-        border-bottom: 3px solid #f09990;
+        border-left: 3px solid #B5828C;
+        border-bottom: 3px solid #B5828C;
         border-bottom-left-radius: 2rem;
         padding: 1rem solid;
-        background-color: #5e8d97;
-        border-top: 0.1rem solid #5e8d97;
+        background-color: #FCE7C8;
+        border-top: 0.1rem solid #FCE7C8;
     }
     nav.active
     {
@@ -114,7 +114,7 @@ nav a:hover, nav a:active
     {
         padding: 1rem;
         border-radius: 0.5rem;
-        border-bottom: 0.5rem solid #f09990;
+        border-bottom: 0.5rem solid #B5828C;
     }
 }
 
@@ -146,7 +146,7 @@ section
 
 span
 {
-    color: #f09990;
+    color: #B5828C;
 }
 
 .home-content h3
@@ -174,7 +174,7 @@ span
     position: relative;
     width: 15vw;
     border-radius: 10%;
-    box-shadow: 0 0 25px solid #f09990;
+    box-shadow: 0 0 25px solid #B5828C;
     cursor: pointer;
     transition: 0.2s linear;
 }
@@ -225,7 +225,7 @@ span
 
     display: inline-block;
     padding: 2rem;
-    background-color: #f09990;
+    background-color: #B5828C;
     border-radius: 15px;
 }
 
@@ -239,13 +239,13 @@ span
 
 .personal-websites a
 {
-    color: #5e8d97;
+    color: #FCE7C8;
     margin: -2rem;
 }
 
 .personal-websites a:hover
 {
-    color: #f09990;
+    color: #B5828C;
     transform: scale(1.1), transitionY(-10px);
     transition: 0.3s ease;
 }
@@ -253,12 +253,12 @@ span
 .assignments h4
 {
     font-size: 2rem;
-    color: #5e8d97;
+    color: #FCE7C8;
 }
 
 .assignments p
 {
-    color: #5e8d97;
+    color: #FCE7C8;
     font-size: 1.5rem;
     line-height: 2.5rem;
     text-indent: 3rem;
@@ -296,7 +296,7 @@ span
     margin-right: 2rem;
     padding: 4rem;
 
-    border: #f09990 solid;
+    border: #B5828C solid;
     border-radius: 15px;
 }
 
@@ -307,7 +307,7 @@ span
     max-width: 100%;
     height: auto;
     border-radius: 15px;
-    box-shadow: 0 0 25px solid #f09990;
+    box-shadow: 0 0 25px solid #B5828C;
     cursor: pointer;
     transition: 0.2s linear;
 }
@@ -322,7 +322,7 @@ span
 
     display: inline-block;
     padding: 2rem;
-    background-color: #f09990;
+    background-color: #B5828C;
     border-radius: 15px;
 }
 
@@ -352,7 +352,7 @@ span
     width: 4rem;
     height: 4rem;
     background-color: transparent;
-    border: 0.2rem solid #f09990;
+    border: 0.2rem solid #B5828C;
     font-size: 2rem;
     border-radius: 50%;
     margin: 3rem 1.5rem 3rem 0;
@@ -362,10 +362,10 @@ span
 
 .social-icons a:hover
 {
-    color: #5e8d97;
+    color: #FCE7C8;
     transform: scale(1.3) translateY(-5px);
-    background-color: #f09990;
-    box-shadow: 0 0 25px #f09990;
+    background-color: #B5828C;
+    box-shadow: 0 0 25px #B5828C;
 }
 
 .contact-links
@@ -385,13 +385,13 @@ span
 
 .student-email:hover
 {
-    color: #f09990;
-    border-bottom: #f09990 solid;
+    color: #B5828C;
+    border-bottom: #B5828C solid;
 }
 
 .contact-container
 {
-    border:#f09990 0.2rem solid;
+    border:#B5828C 0.2rem solid;
     border-radius: 15px;
     padding: 5rem;
     gap: 1rem;
