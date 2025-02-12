@@ -56,7 +56,7 @@ header
 .logo
 {
     font-size: 3rem;
-    color: #dfcdc9;
+    color: #a06b5f;
     font-weight: 800;
     cursor: pointer;
     transition: 0.5s ease;
@@ -79,8 +79,8 @@ nav a
 
 nav a:hover, nav a:active
 {
-    color:#dfcdc9;
-    border-bottom: #dfcdc9 solid;
+    color:#a06b5f;
+    border-bottom: #a06b5f solid;
 }
 
 @media(max-width: 995px)
@@ -92,8 +92,8 @@ nav a:hover, nav a:active
         right: 0;
         width: 40%;
         
-        border-left: 3px solid #dfcdc9;
-        border-bottom: 3px solid #dfcdc9;
+        border-left: 3px solid #a06b5f;
+        border-bottom: 3px solid #a06b5f;
         border-bottom-left-radius: 2rem;
         padding: 1rem solid;
         background-color: #FCE7C8;
@@ -114,7 +114,7 @@ nav a:hover, nav a:active
     {
         padding: 1rem;
         border-radius: 0.5rem;
-        border-bottom: 0.5rem solid #dfcdc9;
+        border-bottom: 0.5rem solid #a06b5f;
     }
 }
 
@@ -146,7 +146,7 @@ section
 
 span
 {
-    color: #dfcdc9;
+    color: #a06b5f;
 }
 
 .home-content h3
@@ -174,7 +174,7 @@ span
     position: relative;
     width: 15vw;
     border-radius: 10%;
-    box-shadow: 0 0 25px solid #dfcdc9;
+    box-shadow: 0 0 25px solid #a06b5f;
     cursor: pointer;
     transition: 0.2s linear;
 }
@@ -225,7 +225,7 @@ span
 
     display: inline-block;
     padding: 2rem;
-    background-color: #dfcdc9;
+    background-color: #a06b5f;
     border-radius: 15px;
 }
 
@@ -245,7 +245,7 @@ span
 
 .personal-websites a:hover
 {
-    color: #dfcdc9;
+    color: #a06b5f;
     transform: scale(1.1), transitionY(-10px);
     transition: 0.3s ease;
 }
@@ -253,12 +253,12 @@ span
 .assignments h4
 {
     font-size: 2rem;
-    color: #dfcdc9;
+    color: #a06b5f;
 }
 
 .assignments p
 {
-    color: #dfcdc9;
+    color: #a06b5f;
     font-size: 1.5rem;
     line-height: 2.5rem;
     text-indent: 3rem;
@@ -296,7 +296,7 @@ span
     margin-right: 2rem;
     padding: 4rem;
 
-    border: #dfcdc9 solid;
+    border: #a06b5f solid;
     border-radius: 15px;
 }
 
@@ -307,7 +307,7 @@ span
     max-width: 100%;
     height: auto;
     border-radius: 15px;
-    box-shadow: 0 0 25px solid #dfcdc9;
+    box-shadow: 0 0 25px solid #a06b5f;
     cursor: pointer;
     transition: 0.2s linear;
 }
@@ -322,7 +322,7 @@ span
 
     display: inline-block;
     padding: 2rem;
-    background-color: #dfcdc9;
+    background-color: #a06b5f;
     border-radius: 15px;
 }
 
@@ -352,7 +352,7 @@ span
     width: 4rem;
     height: 4rem;
     background-color: transparent;
-    border: 0.2rem solid #dfcdc9;
+    border: 0.2rem solid #a06b5f;
     font-size: 2rem;
     border-radius: 50%;
     margin: 3rem 1.5rem 3rem 0;
@@ -364,8 +364,8 @@ span
 {
     color: #FCE7C8;
     transform: scale(1.3) translateY(-5px);
-    background-color: #dfcdc9;
-    box-shadow: 0 0 25px #dfcdc9;
+    background-color: #a06b5f;
+    box-shadow: 0 0 25px #a06b5f;
 }
 
 .contact-links
@@ -385,13 +385,13 @@ span
 
 .student-email:hover
 {
-    color: #dfcdc9;
-    border-bottom: #dfcdc9 solid;
+    color: #a06b5f;
+    border-bottom: #a06b5f solid;
 }
 
 .contact-container
 {
-    border:#dfcdc9 0.2rem solid;
+    border:#a06b5f 0.2rem solid;
     border-radius: 15px;
     padding: 5rem;
     gap: 1rem;
