@@ -29,9 +29,10 @@ body
     height: 100vh;
     overflow-x: hidden;
     
-    background-image: url('https://raw.githubusercontent.com/ToshisCorner/COE490-S2-Azure/refs/heads/main/assets/skcsf-background-pic.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: url('https://raw.githubusercontent.com/ToshisCorner/COE490-S2-Azure/refs/heads/main/assets/scksf-background-pic.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
 
     color: #91865e;
