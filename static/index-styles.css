@@ -220,7 +220,7 @@ span
 .assignments h3
 {
     margin-right: 2rem;
-    color: #91865e;
+    color: aliceblue;
     font-size: 3rem;
     font-weight: 700;
 
@@ -316,7 +316,7 @@ span
 .resumes h3
 {
     margin-left: 2rem;
-    color: #91865e;
+    color: aliceblue;
     font-size: 3rem;
     margin-bottom: 4rem;
     font-weight: 700;
@@ -408,6 +408,7 @@ span
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.3;
+    color: #a06b5f;
 }
 
 .contact-links p
