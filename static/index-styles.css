@@ -35,7 +35,7 @@ body
     -o-background-size: cover;
     background-size: cover;
 
-    color: #91865e;
+    color: #7886C7;
 }
 header
 {
@@ -57,7 +57,7 @@ header
 .logo
 {
     font-size: 3rem;
-    color: #a06b5f;
+    color: #2D336B;
     font-weight: 800;
     cursor: pointer;
     transition: 0.5s ease;
@@ -71,7 +71,7 @@ header
 nav a
 {
     font-size: 1.8rem;
-    color: #91865e;
+    color: #7886C7;
     margin-left: 4rem;
     font-weight: 500;
     transition: 0.3s ease;
@@ -80,8 +80,8 @@ nav a
 
 nav a:hover, nav a:active
 {
-    color:#a06b5f;
-    border-bottom: #a06b5f solid;
+    color:#2D336B;
+    border-bottom: #2D336B solid;
 }
 
 @media(max-width: 995px)
@@ -93,8 +93,8 @@ nav a:hover, nav a:active
         right: 0;
         width: 40%;
         
-        border-left: 3px solid #a06b5f;
-        border-bottom: 3px solid #a06b5f;
+        border-left: 3px solid #2D336B;
+        border-bottom: 3px solid #2D336B;
         border-bottom-left-radius: 2rem;
         padding: 1rem solid;
         background-color: #FCE7C8;
@@ -115,7 +115,7 @@ nav a:hover, nav a:active
     {
         padding: 1rem;
         border-radius: 0.5rem;
-        border-bottom: 0.5rem solid #a06b5f;
+        border-bottom: 0.5rem solid #2D336B;
     }
 }
 
@@ -147,7 +147,7 @@ section
 
 span
 {
-    color: #a06b5f;
+    color: #2D336B;
 }
 
 .home-content h3
@@ -175,7 +175,7 @@ span
     position: relative;
     width: 15vw;
     border-radius: 10%;
-    box-shadow: 0 0 25px solid #a06b5f;
+    box-shadow: 0 0 25px solid #2D336B;
     cursor: pointer;
     transition: 0.2s linear;
 }
@@ -226,7 +226,7 @@ span
 
     display: inline-block;
     padding: 2rem;
-    background-color: #a06b5f;
+    background-color: #2D336B;
     border-radius: 15px;
 }
 
@@ -246,7 +246,7 @@ span
 
 .personal-websites a:hover
 {
-    color: #a06b5f;
+    color: #2D336B;
     transform: scale(1.1), transitionY(-10px);
     transition: 0.3s ease;
 }
@@ -254,12 +254,12 @@ span
 .assignments h4
 {
     font-size: 2rem;
-    color: #a06b5f;
+    color: #2D336B;
 }
 
 .assignments p
 {
-    color: #a06b5f;
+    color: #2D336B;
     font-size: 1.5rem;
     line-height: 2.5rem;
     text-indent: 3rem;
@@ -297,7 +297,7 @@ span
     margin-right: 2rem;
     padding: 4rem;
 
-    border: #a06b5f solid;
+    border: #2D336B solid;
     border-radius: 15px;
 }
 
@@ -308,7 +308,7 @@ span
     max-width: 100%;
     height: auto;
     border-radius: 15px;
-    box-shadow: 0 0 25px solid #a06b5f;
+    box-shadow: 0 0 25px solid #2D336B;
     cursor: pointer;
     transition: 0.2s linear;
 }
@@ -323,13 +323,13 @@ span
 
     display: inline-block;
     padding: 2rem;
-    background-color: #a06b5f;
+    background-color: #2D336B;
     border-radius: 15px;
 }
 
 .resumes h4
 {
-    color: #91865e;
+    color: #7886C7;
     font-size: 2rem;
     padding: 1rem;
 }
@@ -353,20 +353,20 @@ span
     width: 4rem;
     height: 4rem;
     background-color: transparent;
-    border: 0.2rem solid #a06b5f;
+    border: 0.2rem solid #2D336B;
     font-size: 2rem;
     border-radius: 50%;
     margin: 3rem 1.5rem 3rem 0;
     transition: 0.3s ease;
-    color:#a06b5f;
+    color:#2D336B;
 }
 
 .social-icons a:hover
 {
     color: aliceblue;
     transform: scale(1.3) translateY(-5px);
-    background-color: #a06b5f;
-    box-shadow: 0 0 25px #a06b5f;
+    background-color: #2D336B;
+    box-shadow: 0 0 25px #2D336B;
 }
 
 .contact-links
@@ -380,19 +380,19 @@ span
 
 .student-email
 {
-    color: #a06b5f;
+    color: #2D336B;
     transition: 0.3s ease;
 }
 
 .student-email:hover
 {
-    color: #a06b5f;
-    border-bottom: #a06b5f solid;
+    color: #2D336B;
+    border-bottom: #2D336B solid;
 }
 
 .contact-container
 {
-    border:#a06b5f 0.2rem solid;
+    border:#2D336B 0.2rem solid;
     border-radius: 15px;
     padding: 5rem;
     gap: 1rem;
@@ -408,7 +408,7 @@ span
     font-size: 3rem;
     font-weight: 700;
     line-height: 1.3;
-    color: #a06b5f;
+    color: #2D336B;
 }
 
 .contact-links p
