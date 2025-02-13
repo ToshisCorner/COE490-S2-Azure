@@ -29,7 +29,7 @@ body
     height: 100vh;
     overflow-x: hidden;
     
-    background: url('https://raw.githubusercontent.com/ToshisCorner/COE490-S2-Azure/refs/heads/main/assets/scksf-bgblurred-pic.png') no-repeat center center fixed; 
+    background: url('https://raw.githubusercontent.com/ToshisCorner/COE490-S2-Azure/refs/heads/main/assets/scksf-background-pic.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -208,6 +208,12 @@ span
 
 }
 
+.assignments img:hover
+{
+    transform: scale(1.3) translateY(-5px);
+    cursor:pointer;
+}
+
 .assignments-container
 {
     display: flex;
@@ -285,6 +291,12 @@ span
 .resumes
 {
 
+}
+
+.resumes img:hover
+{
+    transform: scale(1.3) translateY(-5px);
+    cursor:pointer;
 }
 
 .resumes-container
