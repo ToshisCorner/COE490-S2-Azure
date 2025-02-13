@@ -35,6 +35,9 @@ body
     -o-background-size: cover;
     background-size: cover;
 
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+
     color: #7886C7;
 }
 header
