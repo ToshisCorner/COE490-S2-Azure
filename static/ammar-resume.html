@@ -1,81 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Fetching</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ammar Aal-Wahab | CV</title>
+    <link rel="stylesheet" href="ammar-resume-styles.css">
 </head>
-<body>
-
-<h1>Accessing Node.js Server-Side Application Programming Interfaces (APIs)</h1>
-<p>Calling Node.js server-side APIs is demonstrated below.</p>
-
-<button type="button" onclick="fetchAbout()">Fetch About</button>
-<div id="fetch-about-result"></div>
-<br><br>
-
-<button type="button" onclick="fetch2Plus2()">Fetch 2plus2</button>
-<div id="fetch-2plus2-result"></div>
-<br><br>
-
-Add two integers on the Node.js server.<br />
-<select onchange="addTwoIntegers()" id="x-value">
-	<option>1</option>
-	<option>2</option>
-	<option>3</option>
-	<option>100</option>
-</select> +
-
-<select onchange="addTwoIntegers()" id="y-value">
-	<option>1</option>
-	<option>2</option>
-	<option>3</option>
-	<option>100</option>
-</select> = 
-<input id="sum" disabled></input><br /><br /><br />
-
-<button type="button" onclick="calculateBMI()">Calculate BMI</button>
-<div id="bmi-result"></div>
-<br><br>
-
-
-<br><br>
-
-<script>
-	let fetchAboutCounter = 0
-	async function fetchAbout() {
-		fetchAboutCounter++
-		const response = await fetch("/about")
-		const responseText = await response.text()
-		document.getElementById("fetch-about-result").innerHTML = responseText + " ("+fetchAboutCounter+")"
-	}
-
-	let fetch2plus2Counter = 0
-	async function fetch2Plus2() {
-		fetch2plus2Counter++
-		const response = await fetch("/2plus2")
-		const responseText = await response.text()
-		document.getElementById("fetch-2plus2-result").innerHTML = responseText + " ("+fetch2plus2Counter+")"
-	}
-
-	async function addTwoIntegers() {
-		const x = document.getElementById("x-value").value
-		const y = document.getElementById("y-value").value
-
-		// Note the URL (fetch) string will look something like '/add-two-integers?x=2&y=1' when it is sent.
-		const fetchString = "/add-two-integers?x="+x+"&y="+y
-		const response = await fetch(fetchString)
-		const responseText = await response.text()
-		document.getElementById("sum").value = responseText
-	}
-
-	async function calculateBMI() {
-		// Approximate height and weight for a man in the US. 
-		const response = await fetch('/calculate-bmi?feet=5&inches=10&lbs=186')
-		const responseText = await response.text()
-		console.log(responseText)
-		document.getElementById("bmi-result").innerHTML = responseText
-	}
-
-	addTwoIntegers()
-</script>
+<body class="bg-gray-100 text-gray-800">
+    <div class="container">
+        <header class="mb-6">
+            <h1 class="title">Ammar Aal-Wahab</h1>
+            <p>Sharjah, UAE | (050) 4921103 | <a href="mailto:b00092433@aus.edu">b00092433@aus.edu</a></p>
+            <p><a href="https://www.linkedin.com/in/ammar-aal-wahab-89b3852b8/">LinkedIn Profile</a></p>
+        </header>
+        <section class="mb-6">
+            <h2 class="section-title">EDUCATION</h2>
+            <ul>
+                <li>
+                    <strong>American University of Sharjah, Sharjah, UAE</strong> - December 2025<br>
+                    BS in Computer Science<br>
+                    Relevant Coursework: CMP256 || GUI Design and Programming
+                    <ul>
+                        <li>Created a version of the Game of Life in JAVA.</li>
+                        <li>Created several swift applications in JAVA.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Al Ma’arifa International Private School, Sharjah, UAE</strong> - May 2021<br>
+                    Highschool Diploma (Graduation Grade: 95.5%)
+                </li>
+            </ul>
+        </section>
+        <section class="mb-6">
+            <h2 class="section-title">WORK EXPERIENCE</h2>
+            <ul>
+                <li>
+                    <strong>Pet Republic, Software Engineer Intern</strong> - Sharjah, UAE (2024 - Current)
+                    <ul>
+                        <li>Worked with reading and auditing outsourcing requests.</li>
+                        <li>Participated in testing the app as development continued.</li>
+                        <li>Joined into development work on the landing page.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Freelance, Writer</strong> - Sharjah, UAE (2018 - 2021)
+                    <ul>
+                        <li>Worked in creative writing for employers.</li>
+                        <li>Delivered work on time.</li>
+                        <li>The writing got stellar reviews.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section class="mb-6">
+            <h2 class="section-title">PROJECTS</h2>
+            <ul>
+                <li>
+                    <strong>Game Modification Published</strong> - Sharjah, UAE (2023)<br>
+                    <a href="https://www.curseforge.com/minecraft/modpacks/marguscraft">Link to published material</a>.
+                </li>
+                <li>
+                    <strong>Translation Work</strong> - Sharjah, UAE (2020)
+                    <ul>
+                        <li>Worked in translating comic books with a team.</li>
+                        <li>Mostly worked on Photoshop.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section class="mb-6">
+            <h2 class="section-title">EXTRACURRICULAR ACTIVITIES</h2>
+            <ul>
+                <li>
+                    <strong>Tabletop Games Club, President</strong> - Sharjah, UAE (2022 - Present)
+                    <ul>
+                        <li>Worked as president of the club for multiple years.</li>
+                        <li>Often managed different events.</li>
+                        <li>Membership increased tenfold since arrival.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section class="mb-6">
+            <h2 class="section-title">SKILLS AND INTERESTS</h2>
+            <ul>
+                <li>Computer Skills: C++, C#, Java, HTML, Python, SQL, GDSCRIPT, XML, Unreal Engine 4, Unity</li>
+                <li>Language Skills: English (Fluent), Arabic (Fluent), French (Beginner)</li>
+                <li>Soft Skills: Adaptable, Excellent communication, Leadership experience, Diligent worker</li>
+            </ul>
+        </section>
+    </div>
 </body>
 </html>
