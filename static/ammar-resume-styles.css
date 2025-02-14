@@ -1,1 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
 
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #212121;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.title {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #70b9a2;
+}
+
+.section-title {
+    font-size: 1.5em;
+    margin-top: 1em;
+    color: #5fd685;
+    border-bottom: 2px solid #61c16f;
+    padding-bottom: 5px;
+}
+
+ul {
+    padding-left: 20px;
+    margin-bottom: 1em;
+}
+
+ul li {
+    margin-bottom: 0.5em;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
