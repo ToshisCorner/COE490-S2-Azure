@@ -1,3 +1,9 @@
-# Node.js and Express Hosted on Microsoft Azure Template
-This repository serves as a template that can be used to create a Node.js and Express based website that can easily
-be hosted on Microsoft Azure.
+# COE420 - Sprint 2: Online Resume & Assignment Repository
+This online repository and website was created by John Benedict Alianza (b00094038) & Ammar Aal-Wahab (b00092433). 
+The backbone was generated from EricPogueExampleCode-Web/node-js-express-and-azure-plus-fetch-template.
+All assets aside from the background image for the websites are property of the two aforementioned.
+Execution is simple, as each site can be accessed through HTTPS links as follows:
+
+Assignment Archive: https://coe490-s2-azure-avgzdtgxchcfc0dh.centralus-01.azurewebsites.net
+John Benedict Personal Website: https://toshiscorner.github.io/Introduction-Website-for-COE490/#
+Ammar Aal-Wahab Personal Website: https://ayamuu.github.io
